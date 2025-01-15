@@ -55,6 +55,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding: 0px 240px;
 }
 
 .banner h1 {
@@ -67,6 +68,9 @@ nav ul li a {
     padding: 32px 0;
     color: rgba(39, 39, 39, 0.60);
     width: 70%;
+}
+.banner img{
+    vertical-align: bottom;
 }
 
 /* main */
@@ -136,21 +140,74 @@ nav ul li a {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
-.Delivery-section-margin{
+
+.Delivery-section-margin {
     margin: 50px 230px;
 }
-.Delivery-section{
+
+.Delivery-section {
     padding: 86px 177px;
     display: flex;
     gap: 50px;
     justify-content: space-evenly;
 }
-.Delivery-section>div{
+
+.Delivery-section>div {
     text-align: center;
 }
-.Delivery-section>div>p{
+
+.Delivery-section>div>p {
     color: rgba(39, 39, 39, 0.8);
     font-size: 24px;
     font-weight: 600;
     margin-top: 20px;
+}
+
+/* /hot deal  */
+.hot-deal-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.sale-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 100px 0;
+}
+.sale-container h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+.sale-container span{
+    color: #E55473;
+}
+.sale-container p{
+    padding: 30px 0;
+    color: rgba(39, 39, 39, 0.60);
+    width: 50%;
+}
+
+/* instagram */
+.social-image-cart{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.insta-info{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+.insta-info h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-info p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    padding-top: 20px;
 }
