@@ -115,7 +115,8 @@ nav ul li a {
     background: rgba(5, 151, 160, 0.15);
     padding: 117px 47px 50px 47px;
 }
-.light-green-cart-bg{
+
+.light-green-cart-bg {
     background: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0px 67px;
 }
@@ -123,8 +124,33 @@ nav ul li a {
 .pink-flower-cart img {
     vertical-align: bottom;
 }
-.pink-flower-container a{
+
+.pink-flower-container a {
     color: black;
     font-size: 20px;
-    font-weight: 600
+    font-weight: 600;
+}
+
+.Delivery-section {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.Delivery-section-margin{
+    margin: 50px 230px;
+}
+.Delivery-section{
+    padding: 86px 177px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.Delivery-section>div{
+    text-align: center;
+}
+.Delivery-section>div>p{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
 }
