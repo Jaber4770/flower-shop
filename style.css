@@ -3,38 +3,128 @@
 body {
     font-family: "Lato", serif;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
-.common-btn{
 
+.common-btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
 }
-.side-padding{
+
+.side-padding {
     padding: 50px 240px;
 }
+
 /* Header */
-header{
+header {
     background-color: rgba(229, 84, 115, 0.10);
 }
+
 nav ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style-type: none;
     font-size: 25px;
     font-weight: 700;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     background: white;
     padding: 10px 20px;
     border-radius: 5px;
     color: black;
     border: 1px solid rgb(229, 84, 115);
-    
+
 }
-.banner{
+
+.banner {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner h1 {
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+}
+
+.banner p {
+    padding: 32px 0;
+    color: rgba(39, 39, 39, 0.60);
+    width: 70%;
+}
+
+/* main */
+.featured-flower-section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-flower-section h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-flower-section p {
+    padding: 24px 0 48px 0;
+    color: rgba(39, 39, 39, 0.60);
+    width: 40%;
+    margin: 0 auto;
+}
+
+.pink-flower-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.pink-flower-container>div {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pink-flower-cart {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 76px 0 76px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.light-blue-cart-bg {
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 50px 47px;
+}
+.light-green-cart-bg{
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 67px;
+}
+
+.pink-flower-cart img {
+    vertical-align: bottom;
+}
+.pink-flower-container a{
+    color: black;
+    font-size: 20px;
+    font-weight: 600
 }
