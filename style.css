@@ -227,7 +227,7 @@ nav ul li a {
     text-align: center;
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 }
 
 .deal-bg h1 {
@@ -250,4 +250,30 @@ nav ul li a {
     margin-right: 10px;
     width: 50%;
     color: rgba(39, 39, 39, 0.60);
+}
+
+/* footer style */
+.footer-bg {
+    background-color: #272727;
+    color: white;
+    text-align: center;
+}
+
+.footer-bg>div {
+    padding: 128px 0;
+}
+
+.footer-bg span {
+    color: #E55473;
+}
+
+.footer-description{
+    width: 30%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 20px 0;
+}
+
+.copy-rights {
+    color: rgba(255, 255, 255, 0.40);
 }
