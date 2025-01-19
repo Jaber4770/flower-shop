@@ -267,7 +267,7 @@ nav ul li a {
     color: #E55473;
 }
 
-.footer-description{
+.footer-description {
     width: 30%;
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.9);
@@ -276,4 +276,61 @@ nav ul li a {
 
 .copy-rights {
     color: rgba(255, 255, 255, 0.40);
+}
+
+/* Responsive for Mobile */
+@media screen and (max-width: 576px) {
+    .side-padding {
+        padding: 0 20px;
+    }
+    section{
+        margin: 15% 0;
+    }
+    .banner,
+    .pink-flower-container,
+    .Delivery-section,
+    .sale-container,
+    .social-image-cart {
+        flex-direction: column;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+    }
+
+    .banner img {
+        width: 90vw;
+    }
+
+    .featured-flower-section p {
+        width: 100%;
+    }
+    .featured-flower-section {
+        margin-top: 15%;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+
+    .Delivery-section-margin {
+        margin: 0px;
+    }
+
+    .Delivery-section {
+        padding: 10px 20px;
+    }
+    .insta-info {
+        width: 90%;
+        padding: 10px;
+    }
+    .deal-bg{
+        padding: 0px;
+    }
+    .pink-flower-cart {
+        padding: 10px 6px 0 6px;
+    }
+    .footer-description {
+        width: 95%;
+    }
 }
